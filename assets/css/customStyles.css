@@ -15,6 +15,7 @@ body{
 header {
     background-image: linear-gradient(rgb(27, 27, 121),#111111);
     color: #f0f8ff;
+    margin-bottom: 1rem;
 }
 footer{
     text-align: center;
@@ -45,6 +46,7 @@ nav a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
     font-size: 2rem;
+    font-weight: 400;
     color: white;
 }
 nav a:hover {
@@ -146,7 +148,7 @@ border-right: 8px solid white;
 .container-main{
     display: flex;
     flex-direction: row;
-    margin: 0;
+    margin: 1rem;
     justify-content: center;
 }
 .container-main h3{
@@ -174,6 +176,7 @@ border-right: 8px solid white;
 
 /* For medium devices */
 @media(max-width:992px){
+
     nav{
         display: flex;
         flex-direction: column;
@@ -214,6 +217,7 @@ border-right: 8px solid white;
     }
     nav a{
         font-size: 1rem;
+        padding: 8px;
     }
     .side-bar{
         width: 100%;
