@@ -1,86 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="assets/css/customStyles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
         <title>My portfolio</title>
     </head>
-
     <body>
-        <div class="container">
+        <div class="container-fluid">
             <header>
-                <nav>
-                    <div class="site-header">
-                        <img src="assets/images/PhotoGrid_1524063386984.jpg" alt="my image" height="150px;" width="150px">
-                        <p>Developer Coul</p>
+                <div class="container container-header">
+                    <div class="nav-brand">
+                        <img src="assets/images/mylogo.png" alt="logo" width="50px" height="50px">
                     </div>
-                    <ul>
-                        <li>
-                            <a href="index.html">My portfolio website</a>
-                        </li>
-                        
-                    </ul>
-                </nav>
-            </header>
-            <div class="container-main">
-                <div class="site-overview">
-                    <h3>OVERVIEW</h3>
-                    <p class="lead">I am a freelance web developer. I can develop both students projects and commercial websites.</p>
-                    <p>I do both static sites like this one as well as dynamic sites and at times I do also write poems as I am a lover of art and literature</p>
-                    <p>Contact me right now and let's interact at
-                        <a href="mailto:thatcoul@gmail.com" target="_top">Send Mail</a>
-                    </p>
-                    <p> Check other contacts on the social media section</p>
-                </div>
-                <div class="column side-bar">
-                    <div class="column my-skills">
-                        <h3>My skills</h3>
+                    <nav>
                         <ul>
-                            <li>Front End Developing
-                            <ul>
-                                <li>HTML, CSS, VANILLA JAVASCRIPT, BOOTSTRAP AND JQUERY</li>
-                            </ul>
-                        </li>
-                            <li>Back End Developing
-                            <ul>
-                                <li>PHP, MYSQL</li>
-                            </ul>
-                        </li>
-                            <li>Content Management System
-                            <ul>
-                                <li>Wordpress developing</li>
-                            </ul>
-                        </li>
-                        <li>Other languages I know
-                            <ul>
-                            <li>C, C++ and Visual Basic</li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About me</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
                         </ul>
-                        </li>
-                        <li>Currently learning
-                            <ul>
-                                <li>Node. Js and Mongo DB</li>
-                            </ul>
-                        </li>
-                        </li>
-                    </ul>
+                    </nav>
                 </div>
-                <div class="contacts-column">
-                    <h3>SOCIAL MEDIA SITES</h3>
-                    <ul>
-                        <li><a href=" https://wa.me/254714026815" target="_blank"><i style="font-size:24px" class="fa">&#xf232;</i>Just click here and inbox me in whatsapp</a></li>
-                    </ul>
+            </header>
+
+            <main>
+                <section class="container">
+                    <div class="container-banner">
+                        <div>
+                            <h1>HELLO THERE</h1>
+                            <p>Contact me for
+                                    <span class="typed-text"></span>
+                                <span class="typing-cursor">&nbsp</span></p>
+                        </div>
+                        <div id="button-links">
+                            <a class="hire" role="button" href="#contacts">Hire me</a>
+                            <a class="cv" role="button" href="assets/files/CV.docx" download="Dev/Coul/CV">Download CV</a>
+                        </div>
+                    </div>
+                </section>
+                <div class="large-screen">
+                    <section class="container" id="about">
+                        <div class="container-about">
+                            <h1>About me</h1>
+                            <p>I am a diploma in ICT graduate with interest in web development and design.</p>
+                            <p>I have
+                                <a href="#skills">skills</a>
+                                in both front end and back end web development.</p>
+                            <p>I believe in integrity and will be willing to fulfill the needs of my client, if interested in having your own website or customizing an existing website to meet the latest trends then just reach out to me through any of my
+                                <a href="#contacts">Contacts</a>
+                                and I will appreciate.</p>
+                            <p>PS: I'm not only a lover of art and literature but born a poet as well, if you want to read some for free then go on and talk to me 😁</p>
+
+                        </div>
+                    </section>
+                    <section class="container">
+                        <div id="skills" class="container-skills">
+                            <h1>Skills</h1>
+                            <p>The following are the skills /technologies I know:
+                            </p>
+                            <ol>
+                                <li>HTML 5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Bootstrap</li>
+                                <li>JQuery</li>
+                                <li>PHP OOP</li>
+                                <li>MySql</li>
+                                <li>C/ C++</li>
+                                <li>Writing</li>
+                                <li>Visual Basic</li>
+                                <li>Photo manipulation</li>
+                            </ol>
+                        </div>
+                    </section>
+
                 </div>
-            </div>
-
-
-        </div>
-        <footer>
-            <p>Designed by Luteya Coulston 2020<sup>&copy</sup></p>
-        </footer>
-   </div>
-    </body>
+                <footer class="container-fluid container-footer">
+                    <div id="contacts" class="container container-contacts">
+                        <p>Contacts :</p>
+                        <p>Facebook :<a href="https://www.facebook.com/coulmp"> Luteya Coulston</a></p>
+                        <p>Whatsapp :<a href=""> +254 714 026 815</a></p>
+                        <p>Twitter :<a href="https://twitter.com/TypiCoul">@TypiCoul</a></p>
+                        <p>Github : <a href="https://github.com/CoulKe"> @coulKe</a></p>
+                        <p>Email :<a href="mailto:thatcoul@gmail.com" target="_blank" i></i>thatcoul@gmail.com</a></p>
+                </div>
+                <div id="copyright">
+                    <p>Developed by Luteya Coulston 2020&copy</p>
+                </div>
+            </footer>
+            <script src="assets/javascript/functions.js"></script>
+        </main>
+    </div>
+</body>
 </html>
