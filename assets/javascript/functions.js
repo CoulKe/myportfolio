@@ -1,7 +1,7 @@
 const TypingText = document.querySelector(".typed-text");
 const AutoTyping = document.querySelector(".typing-cursor");
  
-const textArray = ['Responsive website', 'Cross-platform website','Interactive website'];
+const textArray = ['Responsive website.', 'Cross-platform website.','Interactive website.'];
 const typingDelay = 100;
 const erasingDelay = 100;
 const newTextDelay = 2000; 
