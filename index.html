@@ -1,28 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="author" content="Coulston Namasa Luteya">
-        <link rel="icon" href="assets/images/mylogo.png" >
-        <link rel="stylesheet" href="assets/css/style.css">
 
-        <title>My portfolio</title>
-    </head>
-    <body>
-            <main>
-                <section class="container">
-                    <div class="container-banner">
-                        <div>
-                            <h1>HELLO THERE</h1>
-                            <p>I'll be live soon. Currently under maintenance
-<br/> ~Coulston <br/> Whatsapp: +254714026815<p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> -->
+
+    <!-- normalize css -->
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- Pageclip -->
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
+    <!-- fontawesome -->
+    <!-- <script src="https://kit.fontawesome.com/5a4d475fe8.js"></script>
+    svg -->
+    <link rel="stylesheet" href="svg.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Luteya Coulston | Portfolio site</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href=#about>About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href=#contacts>Contacts</a></li>
+        </ul>
+    </nav>
+    <!-- particles.js container -->
+    <header id="particles-js" class="banner">
+        <div id="intro">
+            <h3>Who is Coulston?</h3>
+            <p id="introMessage"> I am a web developer with experience in full stack development.</p>
+
+            <div class="intro-links">
+                <a href="#projects" id="projectsButton">See projects</a>
+                <a href="#contactForm" id="messageButton">Leave a message <i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="about">
+                <h1>About</h1>
+                <p>This website is owned by Luteya Coulston, a diploma in ICT graduate with interest in programming.</p>
+                <p><a href="#projects">Check my projects</a> to see my work and hire me if interested.</p>
+                <p>I'm as well a self acclaimed poet and part of my hobbies just involves writing.</p>
+                <p>You can as well <a href="">click here</a> to download my Cv</p>
+            </section>
+            <section id="skills">
+                <h1>Skills</h1>
+                <div class="skills">
+                    <h4 class="left-heading">Design</h4>
+                    <div class="skill-sub-section">
+                        <div class="skill-logo">
+                            <img src="./images/xd.png" alt="Adobe Xd">
+                            <p class="skill-name">Adobe XD</p>
                         </div>
-                     
+                        <div class="skill-logo">
+                            <img src="./images/photoshop.png" alt="Adobe Photoshop">
+                            <p class="skill-name">Adobe Photoshop</p>
+                        </div>
                     </div>
-</section>
-        </main>
-    </div>
+                    <h4 class="left-heading">Front end</h4>
+                    <div class="skill-sub-section">
+                        <div class="skill-logo">
+                            <img src="./images/html.png" alt="HTML">
+                            <p class="skill-name">HTML</p>
+                        </div>
+                        <div class="skill-logo">
+                            <img src="./images/css.png" alt="CSS">
+                            <p class="skill-name">CSS</p>
+                        </div>
+                        <div class="skill-logo">
+                            <img src="./images/sass.png" alt="SASS">
+                            <p class="skill-name">Sass</p>
+                        </div>
+                        <div class="skill-logo">
+                            <img src="./images/bootstrap.png" alt="Bootstrap">
+                            <p class="skill-name">Bootstrap</p>
+                        </div>
+                        <div class="skill-logo">
+                            <img src="./images/javascript.png" alt="JavaScript">
+                            <p class="skill-name">JavaScript</p>
+                        </div>
+                        <div class="skill-logo">
+                            <img src="./images/reactjs.png" alt="React JavaScript">
+                            <p class="skill-name">React JavaScript</p>
+                        </div>
+                    </div>
+                    <h4 class="left-heading">Back end</h4>
+                    <div class="skill-sub-section">
+                        <div class="skill-logo">
+                            <img src="./images/php.jpg" alt="PHP">
+                            <p class="skill-name">PHP</p>
+                        </div>
+                        <div class="skill-logo">
+                            <img src="./images/mysql.png" alt="MYSQL">
+                            <p class="skill-name">MySql</p>
+                        </div>
+                        <div class="skill-logo">
+                            <img src="./images/python.jpg" alt="Python">
+                            <p class="skill-name">Python</p>
+                        </div>
+                    </div>
+                    <div id="skills-more">and more ...</div>
+
+                </div>
+            </section>
+            <section id="projects">
+                <h1>Projects</h1>
+                <p>The following are part of the projects I have done.</p>
+                <div class="project">
+                    <img src="" alt="">
+                    <details>
+                        <summary>Portfolio website</summary>
+                        <p>A project made in <mark>HTML</mark>, <mark>JavaScript</mark>, <mark>particles.js</mark> and
+                            <mark>Sass</mark>/<mark>Css</mark>.
+                        </p>
+                        <p>It was made mobile-first and it's fully responsive.</p>
+                        <p>Full source code on <a href="https://www.github.com/jobs_website">https://www.github.com/jobs_website</a></p>
+                    </details>
+                </div>
+                <div class="project">
+                    <img src="" alt="">
+                    <details>
+                        <summary>Jobs website</summary>
+                        <p>A project made in <mark>PHP</mark>, <mark>JavaScript</mark>, <mark>HTML</mark> and
+                            <mark>Sass</mark>/<mark>Css</mark>.
+                        </p>
+                        <p>It contains dummy data but emulates functionality of a production website.</p>
+                        <p>Full source code on <a href="https://www.github.com/jobs_website">https://www.github.com/jobs_website</a></p>
+                    </details>
+                </div>
+                <div class="project">
+                    <img src="" alt="">
+                    <details>
+                        <summary>Photo Editor</summary>
+                        <p>This project is made using <mark>React JavaScript</mark> and <mark>Sass</mark>/<mark>Css</mark>, to add filters on
+                            an uploaded image.</p>
+                        <p>It uses Context API to manage states.</p>
+                        <p>Full source code on <a href="">github</a></p>
+                    </details>
+                </div>
+            </section>
+
+
+            <section id="contacts">
+                <h1>Contacts</h1>
+                <div>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none"
+                            d="M11.344,5.71c0-0.73,0.074-1.122,1.199-1.122h1.502V1.871h-2.404c-2.886,0-3.903,1.36-3.903,3.646v1.765h-1.8V10h1.8v8.128h3.601V10h2.403l0.32-2.718h-2.724L11.344,5.71z">
+                        </path>
+                    </svg> Facebook: <a href="https://www.facebook.com/coulmp">Luteya Coulston</a>
+                </div>
+                <div>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none"
+                            d="M14.467,6.707c-0.34,0.198-0.715,0.342-1.115,0.419c-0.318-0.335-0.775-0.545-1.279-0.545c-0.969,0-1.754,0.773-1.754,1.727c0,0.135,0.015,0.267,0.045,0.394C8.905,8.628,7.612,7.94,6.747,6.896C6.596,7.151,6.509,7.448,6.509,7.764c0,0.599,0.31,1.128,0.78,1.438C7.002,9.192,6.732,9.115,6.495,8.985c0,0.007,0,0.014,0,0.021c0,0.837,0.605,1.535,1.408,1.694c-0.147,0.04-0.302,0.06-0.462,0.06c-0.113,0-0.223-0.011-0.33-0.031c0.223,0.687,0.871,1.186,1.638,1.199c-0.6,0.464-1.356,0.739-2.179,0.739c-0.142,0-0.281-0.007-0.418-0.023c0.777,0.489,1.699,0.775,2.689,0.775c3.228,0,4.991-2.63,4.991-4.913c0-0.075-0.002-0.149-0.004-0.223c0.342-0.244,0.639-0.547,0.875-0.894c-0.316,0.137-0.652,0.23-1.008,0.272C14.057,7.448,14.336,7.11,14.467,6.707 M10,0.594c-5.195,0-9.406,4.211-9.406,9.406c0,5.195,4.211,9.406,9.406,9.406c5.196,0,9.407-4.211,9.407-9.406C19.406,4.805,15.195,0.594,10,0.594 M10,18.552c-4.723,0-8.551-3.829-8.551-8.552S5.277,1.449,10,1.449c4.723,0,8.551,3.829,8.551,8.551S14.723,18.552,10,18.552">
+                        </path>
+                    </svg> Twitter: <a href="https://twitter.com/TypiCoul">@TypiCoul</a>
+                </div>
+                <div>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none"
+                            d="M14.467,6.707c-0.34,0.198-0.715,0.342-1.115,0.419c-0.318-0.335-0.775-0.545-1.279-0.545c-0.969,0-1.754,0.773-1.754,1.727c0,0.135,0.015,0.267,0.045,0.394C8.905,8.628,7.612,7.94,6.747,6.896C6.596,7.151,6.509,7.448,6.509,7.764c0,0.599,0.31,1.128,0.78,1.438C7.002,9.192,6.732,9.115,6.495,8.985c0,0.007,0,0.014,0,0.021c0,0.837,0.605,1.535,1.408,1.694c-0.147,0.04-0.302,0.06-0.462,0.06c-0.113,0-0.223-0.011-0.33-0.031c0.223,0.687,0.871,1.186,1.638,1.199c-0.6,0.464-1.356,0.739-2.179,0.739c-0.142,0-0.281-0.007-0.418-0.023c0.777,0.489,1.699,0.775,2.689,0.775c3.228,0,4.991-2.63,4.991-4.913c0-0.075-0.002-0.149-0.004-0.223c0.342-0.244,0.639-0.547,0.875-0.894c-0.316,0.137-0.652,0.23-1.008,0.272C14.057,7.448,14.336,7.11,14.467,6.707 M10,0.594c-5.195,0-9.406,4.211-9.406,9.406c0,5.195,4.211,9.406,9.406,9.406c5.196,0,9.407-4.211,9.407-9.406C19.406,4.805,15.195,0.594,10,0.594 M10,18.552c-4.723,0-8.551-3.829-8.551-8.552S5.277,1.449,10,1.449c4.723,0,8.551,3.829,8.551,8.551S14.723,18.552,10,18.552">
+                        </path>
+                    </svg> Whatsapp: <a href="https://wa.me/254714026815">+254714026815</a>
+                </div>
+            </section>
+
+            <form action="https://send.pageclip.co/eDMsmW8Z6R3Uhp7n2rcPROqrRg5rO8e9" class="pageclip-form"
+                id="contactForm" method="post">
+                <legend>Fill the form to leave a message and press send:</legend>
+                <em>(other contacts in the <a href="#contacts">contacts</a> section)</em> <br>
+                <label for="First name">First name: </label> <br>
+                <input type="text" name="name"> <br>
+                <label for="email">Email: </label> <br>
+                <input type="email" name="email" /> <br>
+                <label for="message">Message: </label> <br>
+                <textarea name="message" cols="25" rows="10"></textarea>
+                <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+                <button type="submit" id="submit" class="pageclip-form__submit">
+                    <span>Send</span>
+                </button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Luteya Coulston 2020&copy</p>
+    </footer>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
