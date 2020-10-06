@@ -23,7 +23,7 @@ body {
   background-color: #fefefe;
   line-height: 1.5rem;
   font-size: 1rem;
-  font-family: "Work Sans", Arial, Helvetica, sans-serif;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
 }
 mark {
   background-color: rgb(243, 242, 242);
@@ -46,8 +46,6 @@ nav {
     li {
       a {
         padding: 2px;
-        font-family: "Rubik", "Lucida Sans", "Lucida Sans Regular",
-          "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
         font-weight: 400;
         text-decoration: none;
         color: $darkerBlue;
@@ -163,7 +161,6 @@ main {
       display: inline;
       padding-bottom: 0.5rem;
       position: relative;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
       z-index: -1;
     }
     .left-heading::after {
