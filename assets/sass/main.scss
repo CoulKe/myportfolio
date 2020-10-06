@@ -196,6 +196,11 @@ main {
     }
   }
   #projects {
+    img {
+      width: 100%;
+      height: 350px;
+      object-fit: contain;
+    }
     summary {
       color: blue;
       display: block; //For compatibility

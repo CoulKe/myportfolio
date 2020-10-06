@@ -187,6 +187,11 @@ main #skills .skill-sub-section .skill-logo img {
 main #skills .skill-sub-section .skill-logo .skill-name {
   text-align: center;
 }
+main #projects img {
+  width: 100%;
+  height: 350px;
+  object-fit: contain;
+}
 main #projects summary {
   color: blue;
   display: block;
