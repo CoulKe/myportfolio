@@ -40,7 +40,7 @@ particlesJS("particles-js", {
     detect_on: "canvas",
     events: {
       onhover: { enable: true, mode: "grab" },
-      onclick: { enable: true, mode: "push" },
+      onclick: { enable: true, mode: "bubble" },
       resize: true,
     },
     modes: {
