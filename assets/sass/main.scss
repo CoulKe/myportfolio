@@ -125,7 +125,7 @@ header {
 }
 main {
   display: flex;
-  word-break: break-all;
+  word-break: keep-all;
   flex-direction: column;
   margin: 0em 1.5em 60px 1.5em;
   section::first-letter {
