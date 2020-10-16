@@ -11,5 +11,5 @@ text.split("").forEach((letter) => {
 });
 setTimeout(() => {
   txt.style =
-    "opacity: 0; transition-duration: 500ms;transition-timing-function: linear;";
+    "opacity: 0;transform: scaleY(0) ;transition-duration: 500ms;transition-timing-function: linear;";
 }, 3000);
