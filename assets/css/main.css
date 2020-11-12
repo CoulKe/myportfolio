@@ -117,6 +117,13 @@ header #intro {
   padding: 1.5rem;
   line-height: 2rem;
 }
+header #intro #design-white {
+  background-color: #fff;
+  color: #0f1d7a;
+  text-shadow: none;
+  padding: 8px;
+  display: inline-block;
+}
 header #intro h3,
 header #intro p {
   text-shadow: 1px 2px #111;
@@ -314,12 +321,6 @@ main #contactForm #submit {
 
   header {
     text-align: center;
-  }
-  header #intro #design-white {
-    background-color: #fff;
-    color: #0f1d7a;
-    text-shadow: none;
-    padding: 2px;
   }
   header #intro #introMessage {
     margin-top: 8px;

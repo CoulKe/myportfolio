@@ -111,6 +111,14 @@ header {
   justify-content: center;
 
   #intro {
+    #design-white{
+      background-color: #fff;
+      color: $darkerBlue;
+      text-shadow: none;
+      padding: 8px;
+      display: inline-block;
+
+    }
     position: absolute;
     padding: 1.5rem;
     line-height: 2rem;
@@ -327,13 +335,7 @@ main {
   header {
     text-align: center;
     #intro {
-      #design-white{
-        background-color: #fff;
-        color: $darkerBlue;
-        text-shadow: none;
-        padding: 2px;
-
-      }
+      
       #introMessage{
         margin-top: 8px;
       }
