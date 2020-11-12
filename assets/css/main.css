@@ -315,6 +315,15 @@ main #contactForm #submit {
   header {
     text-align: center;
   }
+  header #intro #design-white {
+    background-color: #fff;
+    color: #0f1d7a;
+    text-shadow: none;
+    padding: 2px;
+  }
+  header #intro #introMessage {
+    margin-top: 8px;
+  }
   header #intro .intro-links {
     display: flex;
     flex-direction: row;

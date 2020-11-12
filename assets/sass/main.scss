@@ -327,6 +327,16 @@ main {
   header {
     text-align: center;
     #intro {
+      #design-white{
+        background-color: #fff;
+        color: $darkerBlue;
+        text-shadow: none;
+        padding: 2px;
+
+      }
+      #introMessage{
+        margin-top: 8px;
+      }
       .intro-links {
         display: flex;
         flex-direction: row;
