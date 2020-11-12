@@ -290,10 +290,17 @@ main {
       min-width: 100%;
       max-width: 100%;
     }
+    input[type="text"],
+    input[type="email"],
+    textarea{
+      background-color: rgb(252, 252, 252);
+      border: 1px solid #111;
+    }
     input[type="text"]:focus,
     input[type="email"]:focus,
     textarea:focus {
       outline: 2px solid #a0a5d1;
+      background-color: #fff;
       padding: 2px;
       border: none;
     }

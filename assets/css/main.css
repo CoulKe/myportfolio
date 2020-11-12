@@ -279,10 +279,17 @@ main #contactForm input {
   min-width: 100%;
   max-width: 100%;
 }
+main #contactForm input[type=text],
+main #contactForm input[type=email],
+main #contactForm textarea {
+  background-color: #fcfcfc;
+  border: 1px solid #111;
+}
 main #contactForm input[type=text]:focus,
 main #contactForm input[type=email]:focus,
 main #contactForm textarea:focus {
   outline: 2px solid #a0a5d1;
+  background-color: #fff;
   padding: 2px;
   border: none;
 }
