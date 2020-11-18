@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 * {
   box-sizing: border-box;
@@ -11,7 +11,7 @@
   max-width: 980px;
   margin: auto;
 }
-footer{
+footer {
   background-color: grey;
   color: #fff;
   text-align: center;
@@ -68,18 +68,32 @@ header {
   justify-content: center;
 
   #intro {
-    #design-white{
+    position: absolute;
+    padding: 1.5rem;
+    line-height: 2rem;
+    #design-white {
       background-color: #fff;
       color: $darkerBlue;
       text-shadow: none;
       padding: 8px;
       display: inline-block;
-
+      animation: design-white;
+      animation-duration: 2500ms;
+      animation-timing-function: ease-in;
+      animation-fill-mode: forwards;
     }
-    position: absolute;
-    padding: 1.5rem;
-    line-height: 2rem;
-
+    @keyframes design-white {
+      0%{
+        color: #fff;
+        text-shadow: 1px 2px #111;
+        background-color: transparent;
+      }
+      50%{
+        color: #fff;
+        text-shadow: 1px 2px #111;
+        background-color: transparent;
+      }
+    }
     h3,
     p {
       text-shadow: 1px 2px #111;
@@ -162,7 +176,7 @@ main {
 
   #skills {
     width: 100%;
-    #skills-more{
+    #skills-more {
       text-align: center;
     }
     .left-heading {
@@ -257,7 +271,7 @@ main {
     }
     input[type="text"],
     input[type="email"],
-    textarea{
+    textarea {
       background-color: rgb(252, 252, 252);
       border: 1px solid #111;
     }
@@ -283,7 +297,7 @@ main {
 
 // media query
 @media (min-width: 400px) {
-  section{
+  section {
     padding-top: 2rem;
   }
   section h1 {
@@ -292,8 +306,7 @@ main {
   header {
     text-align: center;
     #intro {
-      
-      #introMessage{
+      #introMessage {
         margin-top: 8px;
       }
       .intro-links {
@@ -311,11 +324,11 @@ main {
     box-shadow: 0px 15px 10px -20px #111;
     top: 0;
     z-index: 3;
-    ul{
+    ul {
       justify-content: space-evenly;
     }
   }
-  footer{
+  footer {
     margin: 0;
   }
 }
