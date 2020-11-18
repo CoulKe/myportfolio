@@ -38,6 +38,7 @@ nav {
   background-color: #fff;
   display: flex;
   padding: 0.5rem;
+  z-index: 9999;
 
   ul {
     width: 100%;
@@ -222,26 +223,17 @@ main {
     img {
       width: 100%;
       height: 100%;
+      margin-bottom:0;
     }
-    summary {
-      color: blue;
-      display: block; //For compatibility
-      &:hover,
-      &:focus {
-        outline: none;
-      }
+    .summary{
+      color: #fff;
+      background-color: rgb(4, 86, 124);
+      margin-top: 0;
+      text-align: center;
+      cursor: pointer;
     }
-
-    summary::-webkit-details-marker {
-      color: blue;
-      display: block; //For compatibility
-      &:hover,
-      &:focus {
-        outline: none;
-      }
-    }
-    details {
-      display: block; //For compatibility
+    .full-description{
+      display: none;
     }
   }
   #contactForm {

@@ -40,6 +40,7 @@ nav {
   background-color: #fff;
   display: flex;
   padding: 0.5rem;
+  z-index: 9999;
 }
 nav ul {
   width: 100%;
@@ -213,23 +214,17 @@ main #skills .skill-sub-section .skill-logo .skill-name {
 main #projects img {
   width: 100%;
   height: 100%;
+  margin-bottom: 0;
 }
-main #projects summary {
-  color: blue;
-  display: block;
+main #projects .summary {
+  color: #fff;
+  background-color: #04567c;
+  margin-top: 0;
+  text-align: center;
+  cursor: pointer;
 }
-main #projects summary:hover, main #projects summary:focus {
-  outline: none;
-}
-main #projects summary::-webkit-details-marker {
-  color: blue;
-  display: block;
-}
-main #projects summary::-webkit-details-marker:hover, main #projects summary::-webkit-details-marker:focus {
-  outline: none;
-}
-main #projects details {
-  display: block;
+main #projects .full-description {
+  display: none;
 }
 main #contactForm {
   padding: 1rem 0;
