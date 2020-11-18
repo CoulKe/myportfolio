@@ -44,7 +44,7 @@
 
     <main>
         <div class="container">
-            <section id="about">
+            <section id="about" data-aos="zoom-in-left">
                 <h1>About</h1>
                 <p>Hello, my name is Coulston and I am a programmer who likes to put his skills into practice.</p>
                 <p>Development first caught my attention back in college while I built a Visual Basic school managemnt
@@ -56,7 +56,7 @@
                 <p>I'm as well a self acclaimed poet and part of my hobbies just involves writing. The <a
                         href="#typingGame">typing game </a> contains some of my old poems.</p>
             </section>
-            <section id="skills">
+            <section id="skills" data-aos=fade-right>
                 <h1>Skills</h1>
                 <div class="skills">
                     <h4 class="left-heading">Design</h4>
@@ -120,7 +120,7 @@
                 <h1>Projects</h1>
                 <p>The following are part of the projects I have done, more to be added later.
                     Check my <a href="https://github.com/CoulKe">Github</a> for more still in development.</p>
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <img src="./assets/images/portolio.jpg" alt="myportfolio screenshot">
                     <details>
                         <summary>Portfolio website</summary>
@@ -132,7 +132,7 @@
                     </details>
                 </div>
 
-                <div class="project" id="typingGame">
+                <div class="project" data-aos="fade-up" id="typingGame">
                     <img src="./assets/images/speedykey.png" alt="typing game screenshot">
                     <details>
                         <summary>Speed typing game</summary>
@@ -145,7 +145,7 @@
                         <p>Full source code on <a href="https://github.com/CoulKe/typing_game">Typing game</a></p>
                     </details>
                 </div>
-                <div class="project" id="laravelJobs">
+                <div class="project" data-aos="fade-up" id="laravelJobs">
                     <img src="./assets/images/jobs.jpg" alt="laravel jobs website screenshot">
                     <details>
                         <summary>Jobs searching website</summary>
@@ -170,7 +170,7 @@
                     </details>
                 </div>
 
-                <div class="project">
+                <div class="project" data-aos="fade-up">
                     <img src="./assets/images/photoedit.jpg" alt="photoeditor screenshot">
                     <details>
                         <summary>Photo editor</summary>
@@ -223,13 +223,22 @@
     <footer>
         <p>Luteya Coulston 2020&copy</p>
     </footer>
+    
     <!-- Three js stats library -->
     <script src="./assets/javascript/particles/stats.min.js"></script>
     <!-- Particles js online library -->
     <script src="./assets/javascript/particles/particles.js"></script>
     <!-- particles-js custom lib-->
     <script src="./assets/javascript/particles/script.js"></script>
-
+    <!-- Animate On Scroll -->
+    <link rel="stylesheet" href="./assets/javascript/aos/dist/aos.css">
+    <script src="./assets/javascript/aos/dist/aos.js"></script>
+    <!-- Initialize aos -->
+    <script>
+        AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
     <!-- For pageclip -->
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
