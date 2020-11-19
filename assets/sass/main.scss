@@ -180,31 +180,13 @@ main {
     #skills-more {
       text-align: center;
     }
-    .left-heading {
-      text-align: left;
-      display: inline;
-      padding-bottom: 0.5rem;
-      position: relative;
-      z-index: -1;
+    .skills_wrapper{
+      width: 50%;
+      margin: auto;
+      text-align: center;
     }
-    .left-heading::after {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      background: linear-gradient(to right, #f700ff, #00d9ff);
-      width: 100%;
-      height: 5px;
-    }
-
-    .skill-sub-section {
-      padding-top: 1rem;
-      display: flex;
-      justify-content: space-around;
-      align-content: stretch;
-      flex-wrap: wrap;
       .skill-logo {
-        display: flex;
+        display: inline-flex;
         flex-wrap: wrap;
         padding-top: 0.5rem;
         flex-direction: column;
@@ -216,7 +198,6 @@ main {
         .skill-name {
           text-align: center;
         }
-      }
     }
   }
   #projects {

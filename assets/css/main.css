@@ -174,41 +174,23 @@ main #skills {
 main #skills #skills-more {
   text-align: center;
 }
-main #skills .left-heading {
-  text-align: left;
-  display: inline;
-  padding-bottom: 0.5rem;
-  position: relative;
-  z-index: -1;
+main #skills .skills_wrapper {
+  width: 50%;
+  margin: auto;
+  text-align: center;
 }
-main #skills .left-heading::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(to right, #f700ff, #00d9ff);
-  width: 100%;
-  height: 5px;
-}
-main #skills .skill-sub-section {
-  padding-top: 1rem;
-  display: flex;
-  justify-content: space-around;
-  align-content: stretch;
-  flex-wrap: wrap;
-}
-main #skills .skill-sub-section .skill-logo {
-  display: flex;
+main #skills .skill-logo {
+  display: inline-flex;
   flex-wrap: wrap;
   padding-top: 0.5rem;
   flex-direction: column;
 }
-main #skills .skill-sub-section .skill-logo img {
+main #skills .skill-logo img {
   width: 100px;
   height: 100px;
   align-self: center;
 }
-main #skills .skill-sub-section .skill-logo .skill-name {
+main #skills .skill-logo .skill-name {
   text-align: center;
 }
 main #projects img {
