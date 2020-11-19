@@ -52,9 +52,6 @@ nav {
         text-decoration: none;
         color: $darkerBlue;
       }
-      a :last-child {
-        border-right: none;
-      }
     }
   }
 }
@@ -183,6 +180,7 @@ main {
     .skills_wrapper{
       width: 50%;
       margin: auto;
+      border-radius: 50%;
       text-align: center;
     }
       .skill-logo {

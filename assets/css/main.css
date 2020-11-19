@@ -54,9 +54,6 @@ nav ul li a {
   text-decoration: none;
   color: #0f1d7a;
 }
-nav ul li a :last-child {
-  border-right: none;
-}
 
 header {
   height: calc(100vh - 50px);
@@ -177,6 +174,7 @@ main #skills #skills-more {
 main #skills .skills_wrapper {
   width: 50%;
   margin: auto;
+  border-radius: 50%;
   text-align: center;
 }
 main #skills .skill-logo {
