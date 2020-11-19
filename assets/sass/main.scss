@@ -234,6 +234,10 @@ main {
     }
     .full-description{
       display: none;
+      ul{
+        margin-left: 3rem;
+        list-style-position: outside;
+      }
     }
   }
   #contactForm {
@@ -321,5 +325,9 @@ main {
   }
   footer {
     margin: 0;
+  }
+  .project{
+    width: 50%;
+    margin: auto;
   }
 }

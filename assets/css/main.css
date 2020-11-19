@@ -226,6 +226,10 @@ main #projects .summary {
 main #projects .full-description {
   display: none;
 }
+main #projects .full-description ul {
+  margin-left: 3rem;
+  list-style-position: outside;
+}
 main #contactForm {
   padding: 1rem 0;
   position: static;
@@ -310,6 +314,11 @@ main #contactForm #submit {
 
   footer {
     margin: 0;
+  }
+
+  .project {
+    width: 50%;
+    margin: auto;
   }
 }
 
