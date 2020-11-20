@@ -60,8 +60,7 @@
                 <p><strong data-aos="zoom-in-left">TIP: Click on the text below images to view description with project
                         links.</strong></p>
                 <div class="project" data-aos="fade-up">
-                    <img loading="lazy" src="./assets/images/portolio.jpg" alt="myportfolio screenshot">
-
+                    <img class="progressive__img progressive--not-loaded" data-progressive="/assets/images/portolio.jpg" src="./assets/images/low_quality/portolio.jpg">
                     <div class="project-description">
                         <h1 class="summary">Portfolio website</h1>
                         <div class="full-description">
@@ -75,7 +74,8 @@
                 </div>
 
                 <div class="project" data-aos="fade-up" id="typingGame">
-                    <img loading="lazy" src="./assets/images/speedykey.png" alt="typing game screenshot">
+                    <img class="progressive__img progressive--not-loaded" data-progressive="/assets/images/speedykey.png" src="./assets/images/low_quality/speedkey.jpg" alt="typing game screenshot">
+
                     <div class="project-description">
                         <h1 class="summary">Speed typing game</h1>
                         <div class="full-description">
@@ -91,7 +91,8 @@
                     </div>
                 </div>
                 <div class="project" data-aos="fade-up" id="laravelJobs">
-                    <img loading="lazy" src="./assets/images/jobs.jpg" alt="laravel jobs website screenshot">
+                    <img class="progressive__img progressive--not-loaded" data-progressive="/assets/images/jobs.jpg" src="./assets/images/low_quality/jobs.jpg" alt="laravel jobs website screenshot">
+
                     <div class="project-description">
                         <h1 class="summary">Jobs searching website</h1>
                         <div class="full-description">
@@ -120,7 +121,8 @@
                 </div>
 
                 <div class="project" data-aos="fade-up">
-                    <img loading="lazy" src="./assets/images/photoedit.jpg" alt="photoeditor screenshot">
+                    <img class="progressive__img progressive--not-loaded" data-progressive="./assets/images/photoedit.jpg" src="./assets/images/low_quality/photoedit.jpg" alt="photoeditor screenshot">
+
                     <div class="project-description">
                         <h1 class="summary">Photo editor</h1>
                         <div class="full-description">
@@ -236,11 +238,16 @@
     <!-- Animate On Scroll -->
     <link rel="stylesheet" href="./assets/javascript/aos/dist/aos.css">
     <script src="./assets/javascript/aos/dist/aos.js"></script>
-    <!-- Initialize aos -->
+    <!-- progressively -->
+    <link rel="stylesheet" href="./assets/javascript/progressively-master/dist/progressively.min.css">
+    <script src="./assets/javascript/progressively-master/dist/progressively.min.js"></script>
     <script>
+        // Initialize aos
         AOS.init({
             easing: 'ease-in-out-sine'
         });
+        // Initialize progressively
+        progressively.init();
     </script>
     <!-- For pageclip -->
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
