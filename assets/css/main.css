@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+footer {
+  background-color: #04567c;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 50px;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fefefe;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+mark {
+  background-color: #f3f2f2;
+}
+
+nav {
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid #a8a7a7;
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  padding: 0.5rem;
+  z-index: 9999;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+nav ul li a {
+  padding: 2px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #0f1d7a;
+}
+
+header {
+  height: calc(100vh - 50px);
+  color: #fff;
+  background: linear-gradient(to right, #505996, #0f1d7a);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header #intro {
+  position: absolute;
+  padding: 1.5rem;
+  line-height: 2rem;
+}
+header #intro #design-white {
+  background-color: #fff;
+  color: #0f1d7a;
+  text-shadow: none;
+  padding: 8px;
+  display: inline-block;
+  animation: design-white;
+  animation-duration: 2500ms;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes design-white {
+  0% {
+    color: #fff;
+    text-shadow: 1px 2px #111;
+    background-color: transparent;
+  }
+  50% {
+    color: #fff;
+    text-shadow: 1px 2px #111;
+    background-color: transparent;
+  }
+}
+header #intro h3,
+header #intro p {
+  text-shadow: 1px 2px #111;
+}
+header #intro h3 {
+  font-size: 40px;
+}
+header #intro p {
+  line-height: 2rem;
+  font-size: 20px;
+}
+header #intro .intro-links {
+  display: flex;
+  flex-direction: column;
+}
+header #intro .intro-links #messageButton,
+header #intro .intro-links #projectsButton {
+  height: fit-content;
+  width: fit-content;
+  outline: none;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 0.2rem;
+  margin-top: 6px;
+}
+header #intro .intro-links #projectsButton {
+  background-color: #fff;
+}
+header #intro .intro-links #messageButton {
+  border: 2px solid white;
+  color: white;
+}
+header #intro .intro-links #messageButton:hover,
+header #intro .intro-links #messageButton:focus {
+  background-color: #fff;
+  color: #0f1d7a;
+}
+header #intro .intro-links #projectsButton:hover,
+header #intro .intro-links #projectsButton:focus {
+  background-color: inherit;
+  color: #fff;
+  font-weight: 400;
+  border: 1px solid #fff;
+  margin-top: 4px;
+}
+
+main {
+  display: flex;
+  word-break: keep-all;
+  flex-direction: column;
+  margin: 0em 1.5em 60px 1.5em;
+}
+main section::first-letter {
+  font-size: larger;
+}
+main section h1 {
+  font-size: medium;
+  line-height: 24px;
+  padding-top: 0.5rem;
+  color: #630063;
+  text-transform: uppercase;
+}
+main section::after {
+  content: "***";
+  display: flex;
+  color: #0f1d7a;
+  font-weight: 900;
+  font-size: larger;
+  justify-content: center;
+  padding: 0.5rem;
+}
+main #skills {
+  width: 100%;
+}
+main #skills #skills-more {
+  text-align: center;
+}
+main #skills .skills_wrapper {
+  width: 50%;
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+}
+main #skills .skill-logo {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+  flex-direction: column;
+}
+main #skills .skill-logo img {
+  width: 100px;
+  height: 100px;
+  align-self: center;
+}
+main #skills .skill-logo .skill-name {
+  text-align: center;
+}
+main #projects img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+main #projects .summary {
+  color: #fff;
+  background-color: #04567c;
+  margin-top: 0;
+  text-align: center;
+  cursor: pointer;
+}
+main #projects .full-description {
+  display: none;
+}
+main #projects .full-description ul {
+  margin-left: 3rem;
+  list-style-position: outside;
+}
+main #contactForm {
+  padding: 1rem 0;
+  position: static;
+  line-height: 2rem;
+}
+main #contactForm legend,
+main #contactForm em {
+  text-align: center;
+}
+main #contactForm legend {
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 700;
+}
+main #contactForm em {
+  font-size: 0.8rem;
+  display: block;
+}
+main #contactForm textarea,
+main #contactForm input {
+  min-width: 100%;
+  max-width: 100%;
+}
+main #contactForm input[type=text],
+main #contactForm input[type=email],
+main #contactForm textarea {
+  background-color: #fcfcfc;
+  border: 1px solid #111;
+}
+main #contactForm input[type=text]:focus,
+main #contactForm input[type=email]:focus,
+main #contactForm textarea:focus {
+  outline: 2px solid #a0a5d1;
+  background-color: #fff;
+  padding: 2px;
+  border: none;
+}
+main #contactForm #submit {
+  color: #0f1d7a;
+  position: static;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 900;
+  font-size: large;
+  padding: 0.5rem;
+}
+
+@media (min-width: 400px) {
+  section {
+    padding-top: 2rem;
+  }
+
+  section h1 {
+    text-align: center;
+  }
+
+  header {
+    text-align: center;
+  }
+  header #intro #introMessage {
+    margin-top: 8px;
+  }
+  header #intro .intro-links {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+
+  nav {
+    position: fixed;
+    box-shadow: 0px 15px 10px -20px #111;
+    top: 0;
+    z-index: 3;
+  }
+  nav ul {
+    justify-content: space-evenly;
+  }
+
+  footer {
+    margin: 0;
+  }
+
+  #projects img {
+    width: 489px;
+    height: 366px;
+    max-width: 489px;
+    max-height: 366px;
+    margin-bottom: 0;
+  }
+  #projects .project {
+    width: 50%;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

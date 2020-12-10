@@ -305,8 +305,18 @@ main {
   footer {
     margin: 0;
   }
-  .project{
-    width: 50%;
-    margin: auto;
+  #projects {
+    img {
+      //To avoid blur to bleed out
+      width: 489px;
+      height: 366px;
+      max-width: 489px;
+      max-height: 366px;
+      margin-bottom:0;
+    }
+    .project{
+      width: 50%;
+      margin: auto;
+    }
   }
 }
