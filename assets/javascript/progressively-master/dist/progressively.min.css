@@ -1,1 +1,0 @@
-.progressive{overflow:hidden;position:relative;background:#efefef}.progressive__img{width:100%;height:100%;transform:translateZ(0)}.progressive--not-loaded{filter:blur(1.5px);}.progressive--is-loaded{filter:blur(12px);animation:a .5s both;}@keyframes a{0%{filter:blur(12px)}to{filter:blur(0)}}
