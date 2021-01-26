@@ -13,11 +13,11 @@ export default {
   props: {
     desc: {
       type: String,
-      required: true
+      required: true,
     },
     showReview: {
       type: Boolean,
-      required: true
+      required: true,
     },
   },
   methods: {
@@ -32,6 +32,10 @@ export default {
 <style lang='scss'>
 #review_wrapper {
   background-color: #5c5c5c;
+  @supports(backdrop-filter: blur(90px)) {
+    background-color: transparent;
+    backdrop-filter: contrast(0.7) blur(90px);
+  }
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -43,19 +47,19 @@ export default {
   @include flexbox;
   @include flex-direction(column);
   @include justify-content(center);
-  
-  #project_review{
+
+  #project_review {
     overflow-y: scroll;
     max-width: 800px;
     margin: auto;
     position: relative;
     background-color: #fff;
-    .full-description{
+    .full-description {
       display: block;
       padding: 1rem;
     }
   }
-  button{
+  button {
     font-weight: bold;
     font-size: 1rem;
     position: static;
@@ -66,7 +70,7 @@ export default {
     border-radius: 5px;
     margin: 4px;
     background-color: $darkerBlue;
-    &:hover{
+    &:hover {
       cursor: pointer;
     }
   }
