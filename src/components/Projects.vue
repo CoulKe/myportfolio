@@ -14,7 +14,7 @@
     <div id="projects_view">
       <div class="project" data-aos="fade-up">
         <img
-          loading="lazy"
+          
           src="../assets/images/portolio.jpg"
           alt="Portfolio website screenshot"
         />
@@ -36,7 +36,7 @@
 
       <div class="project" data-aos="fade-up" id="wish">
         <img
-          loading="lazy"
+          
           src="../assets/images/wish.jpg"
           alt="Wish website screenshot"
         />
@@ -61,7 +61,7 @@
       </div>
       <div class="project" data-aos="fade-up" id="typingGame">
         <img
-          loading="lazy"
+          
           src="../assets/images/speedykey.png"
           alt="typing game screenshot"
         />
@@ -92,7 +92,7 @@
       </div>
       <div class="project" data-aos="fade-up" id="laravelJobs">
         <img
-          loading="lazy"
+          
           src="../assets/images/jobs.jpg"
           alt="laravel jobs website screenshot"
         />
@@ -136,7 +136,7 @@
 
       <div class="project" data-aos="fade-up">
         <img
-          loading="lazy"
+          
           src="../assets/images/imdb.jpg"
           alt="movie info app screenshot"
         />
@@ -158,7 +158,7 @@
       </div>
       <div class="project" data-aos="fade-up">
         <img
-          loading="lazy"
+          
           src="../assets/images/photoedit.jpg"
           alt="photoeditor screenshot"
         />
