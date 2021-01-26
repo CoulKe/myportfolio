@@ -2,7 +2,6 @@
   <div id="review_wrapper" @click.self="closeReview">
     <div id="project_review">
       <button @click="closeReview">Go back</button>
-      <img :src="img" alt="Project" /> <br />
       <div v-html="desc"></div>
     </div>
   </div>
@@ -15,11 +14,6 @@ export default {
     desc: {
       type: String,
       required: true
-    },
-    img: {
-      type: String,
-      required: true,
-      default: 'none'
     },
     showReview: {
       type: Boolean,
@@ -75,11 +69,6 @@ export default {
     &:hover{
       cursor: pointer;
     }
-  }
-  img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
   }
 }
 </style>

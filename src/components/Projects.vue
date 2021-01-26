@@ -186,7 +186,6 @@
     </div>
     <review
       v-if="displayDesc"
-      :img="imageSource"
       :showReview="displayDesc"
       :desc="description"
       @update-show-review="toggleDesc"
@@ -206,7 +205,6 @@ export default {
        * for description
        */
       displayDesc: false,
-      imageSource: "",
       description: ""
     };
   },
@@ -214,7 +212,6 @@ export default {
     toggleDesc ($event) {
       this.displayDesc = !this.displayDesc
       if (this.displayDesc) {
-        this.imageSource = $event.target.parentNode.firstChild.src
         this.description = $event.target.parentNode.lastChild.innerHTML
       }
     },
