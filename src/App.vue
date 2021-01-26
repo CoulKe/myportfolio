@@ -10,7 +10,7 @@
 
   <router-view />
   <footer>
-    <p>Luteya Coulston 2020&copy; - present</p>
+    <p>Luteya Coulston 2020&copy;</p>
   </footer>
 </template>
 
