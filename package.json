@@ -10,7 +10,6 @@
   "dependencies": {
     "aos": "^2.3.4",
     "core-js": "^3.6.5",
-    "intersection-observer": "^0.12.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.2"
   },
@@ -41,7 +40,9 @@
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions",
-    "not dead"
+    "not IE 11",
+    "Android >= 4",
+    "not dead",
+    "maintained node versions"
   ]
 }
