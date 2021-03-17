@@ -40,9 +40,7 @@
   },
   "browserslist": [
     "> 1%",
-    "not IE 11",
     "Android >= 4",
-    "not dead",
-    "maintained node versions"
+    "not dead"
   ]
 }
