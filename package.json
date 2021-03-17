@@ -40,7 +40,8 @@
   },
   "browserslist": [
     "> 1%",
-    "Android >= 4",
-    "not dead"
+    "last 2 versions",
+    "not ie <= 8",
+    "Android >= 4"
   ]
 }

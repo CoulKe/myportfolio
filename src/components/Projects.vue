@@ -112,24 +112,6 @@
               <mark>Bootstrap</mark>
               and <mark>Sass</mark> / <mark>Css</mark>
             </p>
-            <p>
-              It contains dummy data but emulates the functions of a production
-              website.
-            </p>
-            <p>Features:</p>
-            <ul>
-              <li>Authentication (Login system)</li>
-              <li>Secure (Protected against sql injections)</li>
-              <li>Pretty urls (No file extensions used)</li>
-              <li>CRUD operations including File upload</li>
-              <li>Pagination</li>
-            </ul>
-            <p>
-              Currently there's no live version but you can clone it and run it
-              locally or host it, link for source code is below. Instructions
-              are provided in the README but you can contact for assistance in
-              case stuck.
-            </p>
           </div>
         </div>
       </div>
