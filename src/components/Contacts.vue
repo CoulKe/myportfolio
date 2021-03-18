@@ -31,6 +31,7 @@
             </form>
 </template>
 
+
 <style lang='scss' scoped>
 //light
 
@@ -112,12 +113,12 @@
     input[type="text"],
     input[type="email"],
     textarea {
-      padding: 0.2rem;
+      padding: 0.4rem;
     }
     input[type="text"]:focus,
     input[type="email"]:focus,
     textarea:focus {
-      padding: 2px;
+       padding: 0.4rem;
       border: none;
     }
     #submit {
