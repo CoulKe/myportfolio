@@ -6,6 +6,18 @@
 </template>
 
 <style lang='scss' scoped>
+//Light mode
+.light{
+  #loader{
+    background-color: #fff;
+  }
+}
+//Drak mode
+.dark{
+  #loader{
+    background-color: $lightGrey;
+  }
+}
 #loader{
     text-align: center;
     font-weight: bold;
@@ -22,6 +34,5 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color: #fff;
 }
 </style>

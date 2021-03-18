@@ -30,12 +30,43 @@ export default {
 };
 </script>
 <style lang='scss'>
-#review_wrapper {
-  background-color: #5c5c5c;
-  @supports(backdrop-filter: blur(90px)) {
-    background-color: transparent;
-    backdrop-filter: contrast(0.7) blur(90px);
+.light {
+  #review_wrapper {
+    background-color: #5c5c5c;
+    @supports (backdrop-filter: blur(90px)) {
+      background-color: transparent;
+      backdrop-filter: contrast(0.7) blur(90px);
+    }
+    #project_review {
+      background-color: #fff;
+    }
+    button {
+      color: #fff;
+      background-color: $darkerBlue;
+    }
   }
+}
+.dark {
+  #review_wrapper {
+    background-color: $darkGrey;
+    @supports (backdrop-filter: blur(90px)) {
+      background-color: transparent;
+      backdrop-filter: contrast(0.7) blur(90px);
+    }
+    #project_review {
+      background-color: $lightGrey;
+    }
+    button {
+      color: $dark;
+      background-color: $darkerWhite;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+//layout
+#review_wrapper {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -53,7 +84,6 @@ export default {
     max-width: 800px;
     margin: auto;
     position: relative;
-    background-color: #fff;
     .full-description {
       display: block;
       padding: 1rem;
@@ -66,10 +96,8 @@ export default {
     outline: none;
     padding: 4px;
     border: none;
-    color: #fff;
     border-radius: 5px;
     margin: 4px;
-    background-color: $darkerBlue;
     &:hover {
       cursor: pointer;
     }

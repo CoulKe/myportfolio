@@ -26,6 +26,19 @@
 </template>
 
 <style lang='scss' scoped>
+.light{
+  h1{
+    color: #282828;
+  }
+}
+.dark{
+  h1{
+    color: $darkerWhite;
+  }
+  img{
+    background-color: $darkerWhite;
+  }
+}
 #skills {
   width: 100%;
 }
@@ -41,7 +54,6 @@
   h1{
     margin: 0px;
     padding: 0px;
-    color: #282828;
     font-weight: 700;
     font-size: small;
   }

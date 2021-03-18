@@ -34,6 +34,12 @@
 section {
   margin: auto;
 }
+.dark{
+  img{
+    background-color: $lightGrey;
+    padding: 2px;
+  }
+}
 .about_wrapper {
   display: flex;
   flex-direction: column;

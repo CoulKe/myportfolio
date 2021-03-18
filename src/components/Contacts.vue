@@ -32,6 +32,55 @@
 </template>
 
 <style lang='scss' scoped>
+//light
+
+.light{
+  #contacts{
+  #contactForm {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      background-color: rgb(252, 252, 252);
+      border: 1px solid #111;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      outline: 2px solid #a0a5d1;
+      background-color: #fff;
+    }
+    #submit {
+      color: $darkerBlue;
+    }
+  }
+}
+}
+//dark
+.dark{
+  
+  #contactForm {
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      color: $darkerWhite;
+      background-color: $lightGrey;
+      border: 1px solid #111;
+    }
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+      outline: 2px solid $darkerWhite;
+      background-color: $lightGrey;
+    }
+    #submit {
+      color: $darkerWhite;
+      background-color: $lightGrey;
+      font-weight: 500;
+    }
+  }
+}
+
+//layout
 #contacts{
   margin: auto;
 }
@@ -63,20 +112,15 @@
     input[type="text"],
     input[type="email"],
     textarea {
-      background-color: rgb(252, 252, 252);
-      border: 1px solid #111;
       padding: 0.2rem;
     }
     input[type="text"]:focus,
     input[type="email"]:focus,
     textarea:focus {
-      outline: 2px solid #a0a5d1;
-      background-color: #fff;
       padding: 2px;
       border: none;
     }
     #submit {
-      color: $darkerBlue;
       position: static;
       cursor: pointer;
       width: 100%;
